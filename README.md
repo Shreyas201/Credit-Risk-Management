@@ -18,7 +18,7 @@ The project follows a comprehensive machine-learning workflow to achieve its goa
 
 5. **Creation of a User Interface:** Developing a user interface to interact with the model and visualize results.
    <p align="center">
-  <img src="https://github.com/Shreyas201/Credit-Risk-Management/blob/main/SS.png">
+  <img src="https://github.com/Shreyas201/Credit-Risk-Management/blob/main/SS.png" width="200" height="200">
 </p>
 
 ## Acknowledgments
