@@ -8,15 +8,15 @@ This project focuses on assessing an applicant's ability to repay their HELOC ac
 
 The project follows a comprehensive machine-learning workflow to achieve its goals. The key steps include:
 
-1. **Dataset Description, Pre-processing & Trends:** Understanding the HELOC dataset, performing necessary pre-processing, and identifying trends in the financial records of anonymized consumers.
+1. **Dataset Description, Pre-processing & Trend Analysis:** Understanding the HELOC dataset, performing essential pre-processing tasks, and uncovering trends in the financial records of anonymized consumers.
 
-2. **Relevant Heuristic Features for Credit Risk Prediction:** Identifying key features that contribute to credit risk prediction, helping to build effective machine learning models.
+2. **Identification of Relevant Heuristic Features for Credit Risk Prediction:** Identifying critical features that contribute to credit risk prediction, facilitating the development of effective machine learning models.
 
-3. **Machine Learning Model Implementation:** Building machine learning models to predict credit risk based on the identified features.
+3. **Implementation of Machine Learning Models:** Building robust machine learning models capable of predicting credit risk based on the identified features.
 
-4. **Explainability:** Ensuring the models are interpretable and providing insights into the factors influencing creditworthiness decisions.
+4. **Model Explainability:** Ensuring interpretability of the models and providing insights into the factors influencing creditworthiness decisions.
 
-5. **Creation of a User Interface:** Developing a user interface to interact with the model and visualize results.
+5. **User Interface Development:** Creating an intuitive user interface to interact with the model and visualize the prediction results.
    <p align="center">
   <img src="https://github.com/Shreyas201/Credit-Risk-Management/blob/main/SS.png" alt="Screenshot of the web app">
 </p>
