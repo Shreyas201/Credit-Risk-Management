@@ -17,6 +17,7 @@ The project follows a comprehensive machine-learning workflow to achieve its goa
 4. **Explainability:** Ensuring the models are interpretable and providing insights into the factors influencing creditworthiness decisions.
 
 5. **Creation of a User Interface:** Developing a user interface to interact with the model and visualize results.
+   ![](https://github.com/Shreyas201/Credit-Risk-Management/blob/main/SS.png)
 
 
 ## Acknowledgments
