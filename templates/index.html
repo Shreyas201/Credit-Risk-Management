@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>ML API</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 10px;
+  height: 300px;
+}
+</style>
+  
+</head>
+
+<body>
+ <div class="login">
+	<h1>Predict Approval</h1>
+ <div>
+	
+	</div>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+		<div class="row">
+			<div class="column">
+				<input type="text" name="NetFractionRevolvingBurden" placeholder="NetFractionRevolvingBurden" required="required" />
+				<input type="text" name="PercentTradesWBalance" placeholder="PercentTradesWBalance" required="required" />
+				<input type="text" name="PercentInstallTrades" placeholder="PercentInstallTrades" required="required" />
+				<input type="text" name="MaxDelqEver" placeholder="MaxDelqEver" required="required" />
+				<input type="text" name="ExternalRiskEstimate" placeholder="ExternalRiskEstimate" required="required" />
+				<input type="text" name="MSinceOldestTradeOpen" placeholder="MSinceOldestTradeOpen" required="required" />
+			</div>
+			<div class="column">
+				<input type="text" name="MaxDelq2PublicRecLast12M" placeholder="MaxDelq2PublicRecLast12M" required="required" />
+				<input type="text" name="MSinceMostRecentInqexcl7days" placeholder="MSinceMostRecentInqexcl7days" required="required" />
+				<input type="text" name="PercentTradesNeverDelq" placeholder="PercentTradesNeverDelq" required="required" />
+				<input type="text" name="NumSatisfactoryTrades" placeholder="NumSatisfactoryTrades" required="required" />
+				<input type="text" name="AverageMInFile" placeholder="AverageMInFile" required="required" />
+			</div>
+		</div>
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+   <br>
+   <br>
+   {{prediction_text}}
+
+ </div>
+
+
+</body>
+</html>
